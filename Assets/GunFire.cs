@@ -24,6 +24,17 @@ public class GunFire : MonoBehaviour
             temp.fire();
         }
     }
+    /*
+    private void OnTriggerEnter(Collider other)
+    {
 
-   
+        if (other.gameObject.name == "Enemy")
+        {
+            Debug.Log("아프다");
+        }
+
+
+    }*/
+
+
 }
